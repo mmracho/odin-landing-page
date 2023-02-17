@@ -3,3 +3,24 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background-color: #1F2937;
+}
+
+footer {
+  background-color: #1F2937;
+}
+
+.cover-banner {
+  background-color: #1F2937;
+}
+
+.content-three {
+  background-color: #E5E7EB;
+}
