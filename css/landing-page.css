@@ -51,12 +51,49 @@ nav > ul > li {
   font-weight: 900;
 }
 
+.content-one,
+.content-two,
 .content-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+.app-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 8px;
+}
+
+.app {
+  height: 150px;
+  width: 150px;
+}
+
+.content-two {
   background-color: #E5E7EB;
+}
+
+.content-three-enclosure {
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  gap: 32px;
 }
 
 footer {
   height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
@@ -66,4 +103,9 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+button {
+  padding: 8px 24px;
+  border-radius: 5px;
 }
