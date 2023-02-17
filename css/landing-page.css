@@ -2,25 +2,68 @@
   font-family: 'Roboto Light', Arial, Helvetica, sans-serif, sans-serif;
   margin: 0;
   padding: 0;
+
+  border: 1px solid red;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+}
+
+nav,
+footer,
+.cover-banner {
+  background-color: #1F2937;
+  color: #F9FAF8;
 }
 
 nav {
-  background-color: #1F2937;
+  display: flex;
+  padding: 24px;
+  justify-content: space-around;
 }
 
-footer {
-  background-color: #1F2937;
+nav > ul {
+  display: flex;
+}
+
+nav > ul > li {
+  padding: 8px;
 }
 
 .cover-banner {
-  background-color: #1F2937;
+  display: flex;
+  padding: 48px;
+  justify-content: center;
+}
+
+.banner-left,
+.banner-right {
+  width: 400px;
+  padding: 0 24px;
+  flex: none;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
 }
 
 .content-three {
   background-color: #E5E7EB;
+}
+
+footer {
+  height: 72px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+ul {
+  list-style-type: none;
 }
