@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto Light', Arial, Helvetica, sans-serif, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif, sans-serif;
   margin: 0;
   padding: 0;
 
@@ -25,6 +25,12 @@ nav {
   justify-content: space-around;
 }
 
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 nav > ul {
   display: flex;
 }
@@ -44,11 +50,11 @@ nav > ul > li {
   width: 400px;
   padding: 0 24px;
   flex: none;
-}
-
-.hero-main-text {
-  font-size: 48px;
-  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
 }
 
 .content-one,
@@ -76,17 +82,23 @@ nav > ul > li {
 
 .content-two {
   background-color: #E5E7EB;
+  padding: 32px 250px;
+  height: 300px;
+}
+
+.content-three {
+  height: 200px;
 }
 
 .content-three-enclosure {
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: #3882f6;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 32px;
-  gap: 32px;
+  padding: 42px 124px;
+  gap: 64px;
 }
 
 footer {
@@ -106,6 +118,56 @@ ul {
 }
 
 button {
-  padding: 8px 24px;
-  border-radius: 5px;
+  padding: 8px 32px;
+  border-radius: 8px;
+}
+
+.hero-main-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero-logo-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+}
+
+.content-one-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  color: #1F2937;
+}
+
+.content-quote {
+  font-family: "Roboto Light", sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+}
+
+.content-quote-sub {
+  font-size: 24px;
+  font-weight: 700;
+  align-self: flex-end;
+}
+
+.fancy-button {
+  background-color: #3882f6;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 0px;
+}
+
+.fancy-button-invert {
+  border: 2px solid white;
 }

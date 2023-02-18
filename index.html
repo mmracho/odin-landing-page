@@ -5,31 +5,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/landing-page.css">
   <title>Project: Landing Page</title>
 </head>
 
 <body>
   <nav class="nav">
-    <div>Header Logo</div>
+    <h1 class="header-logo hero-logo-text">Header Logo</h1>
     <ul>
-      <li><a href="#">head link one</a></li>
-      <li><a href="#">head link two</a></li>
-      <li><a href="#">head link three</a></li>
+      <li><a class="hero-secondary-text" href="#">About</a></li>
+      <li><a class="hero-secondary-text" href="#">GitHub</a></li>
+      <li><a class="hero-secondary-text" href="#">Contact</a></li>
     </ul>
   </nav>
   <div class="content">
     <div class="cover-banner">
       <div class="banner-left">
-        <p class="hero-main-text">This website is awesome</p>
-        <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower
+        <h2 class="hero-main-text">This website is awesome</h2>
+        <p class="hero-secondary-text" >This website has some subtext that goes here under the main title. It's smaller font and the color is lower
           contrast</p>
-        <button>Sign up</button>
+        <button class="fancy-button">Sign up</button>
       </div>
-      <div class="banner-right">IMAGE</div>
+      <div class="banner-right">
+        <img src="./img/" alt="this a placeholder for an image">
+      </div>
     </div>
     <div class="content-one">
-      <p>Some random information.</p>
+      <h3 class="content-one-header">Some random information.</h3>
       <ul class="app-list">
         <li class="app">APP1</li>
         <li class="app">APP2</li>
@@ -37,9 +42,9 @@
         <li class="app">APP4</li>
       </ul>
     </div>
-    <div class="content-two">
+    <div class="content-two content-quote">
       <p>“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.”</p>
-      <p>-Antoine de Saint-Exupery</p>
+      <p class="content-quote-sub">-Antoine de Saint-Exupery</p>
     </div>
     <div class="content-three">
       <div class="content-three-enclosure">
@@ -47,12 +52,12 @@
           <p>Call to action! It's time!</p>
           <p>Sign up for our product by clicking that button right over there!</p>
         </div>
-        <button>Sign up</button>
+        <button class="fancy-button fancy-button-invert ">Sign up</button>
       </div>
     </div>
   </div>
   <footer class="footer">
-    <div class="footer-sub">Copyright @ The Odin Project 2023</div>
+    <div>Copyright © Martin Racho 2023</div>
   </footer>
 </body>
 
