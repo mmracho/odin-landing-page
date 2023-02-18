@@ -72,12 +72,26 @@ nav > ul > li {
   justify-content: center;
   align-items: center;
   gap: 32px;
-  padding: 8px;
+  padding: 64px;
 }
 
 .app {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 150px;
+  text-align: center;
+}
+
+.app-img {
   height: 150px;
   width: 150px;
+  border: 3px solid #E5E7EB;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.app-txt {
+  font-weight: 300;
 }
 
 .content-two {
@@ -180,4 +194,10 @@ button {
 
 .fancy-button-invert {
   border: 2px solid white;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  align-self: center;
 }
